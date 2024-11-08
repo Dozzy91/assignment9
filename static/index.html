@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment9</title>
+    <!-- <script src="./public/index.js" defer></script>
+    <link rel="stylesheet" href="./public/index.css"> -->
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <div class="expressForm">
+        <form action="/" method="POST" id="form">
+            <div class="form-group">
+                <!-- <label for="name">Name</label> -->
+                <input type="text" class="form-control" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <!-- <label for="email">Email address</label> -->
+                <input type="email" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <button onsubmit="reset()" class="submit" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <h3>Users</h3>
+    <div class="buttons">
+        <button onclick="userData()">Get Users</button>
+        <button onclick="welcome()">Get Message</button>
+    </div>
+    
+    <div id="users"></div>
+    
+</body>
+</html>

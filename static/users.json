@@ -1,0 +1,17 @@
+[
+  {
+    "name": "John Doe",
+    "email": "john@mrman.com",
+    "password": "johnny"
+  },
+  {
+    "name": "Jane Doe",
+    "email": "jannyfresh@gmail.com",
+    "password": "cuppycake"
+  },
+  {
+    "name": "Jessica Brown",
+    "email": "jessibaby23@yahoomail.com",
+    "password": "talkstojess2993"
+  }
+]
