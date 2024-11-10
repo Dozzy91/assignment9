@@ -72,8 +72,8 @@ app.post('/', (req, res) => {
 });
 
 //handling invalid routes
-app.get('*', (req, res) => {
-    res.send('Oh sorry about that, the route does\'nt exist');
-});
+// app.get('*', (req, res) => {
+//     res.send('Oh sorry about that, the route does\'nt exist');
+// });
 
 app.listen(3000);

@@ -1,7 +1,4 @@
 let pushData = document.getElementById('users');
-function reset() {
-    formData.reset()
-}
 
 async function userData() {
     try {
