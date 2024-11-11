@@ -7,8 +7,8 @@ const fs = require('fs');
 // middleware
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/public', express.static(path.join(__dirname, 'static')));
-const filePath = path.join(__dirname, 'static/users.json')
 
+const filePath = path.join(__dirname, 'static/users.json')
 
 app.get('/', (req, res) => {
     res.send('Welcome to my webpage')
